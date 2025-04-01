@@ -108,11 +108,12 @@ body {
 }
 
 form {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   display: grid;
   align-items: center;
   gap: 1.2rem;
-
+  margin: 1rem 0;
+  padding: 1rem;
   background-color: var(--color-lightest);
   border-radius: 7px;
 }
@@ -122,9 +123,10 @@ form {
   margin-bottom: 1.6rem;
   padding: 1.2rem;
 }
+
 .form-split-bill {
   grid-template-columns: 1fr 12rem;
-  padding: 3.2rem 4rem;
+  padding: 1.2rem 3rem;
 }
 
 label {
